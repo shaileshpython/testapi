@@ -19,5 +19,5 @@ from product.views import ProductView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('products/',ProductView.as_view()),
+    path('',ProductView.as_view()),
 ]
